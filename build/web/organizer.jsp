@@ -1,4 +1,8 @@
+<!--Header-->
 <%@include file="includes/header.jsp" %>
+
+<!--Nav-->
+<%@include file="includes/nav.jsp" %>
 
 <main id="organizer" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 

@@ -7,6 +7,9 @@
 <!--Header-->
 <%@include file="includes/header.jsp" %>
 
+<!--Nav-->
+<%@include file="includes/nav.jsp" %>
+
 <!--Dashboard Starts-->
 <main role="main" class="dashboard col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 

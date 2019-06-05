@@ -1,6 +1,9 @@
 <!--Header-->
 <%@include file="includes/header.jsp" %>
 
+<!--Nav-->
+<%@include file="includes/nav.jsp" %>
+
 <!--Notificaiton starts-->
 <main id="organizerprofile" class="col-md-9 ml-sm-auto col-lg-8 .lg-offset-2 pt-3 px-4 mr-auto">
 <h4>Notifications</h4>
