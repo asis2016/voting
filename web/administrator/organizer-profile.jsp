@@ -1,8 +1,8 @@
 <!--Header-->
-<%@include file="includes/header.jsp" %>
+<%@include file="../includes/header.jsp" %>
 
 <!--Nav-->
-<%@include file="includes/nav.jsp" %>
+<%@include file="../includes/nav.jsp" %>
 
 <main id="organizerprofile" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 
@@ -50,4 +50,4 @@
 
 </main>
 
-<%@include file="includes/footer.jsp" %>
+<%@include file="../includes/footer.jsp" %>

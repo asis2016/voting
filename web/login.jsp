@@ -12,7 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
     <!--Stylesheet-->
-    <link href="Assets/css/style.css" rel="stylesheet">
+    <link href="Assets/css/login.css" rel="stylesheet">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
@@ -37,6 +37,10 @@
                         </label>
                     </div>
                     <a class="btn btn-lg btn-primary btn-block" href="index.jsp">Sign in</a>
+                    <p class="pt-2">
+                        <a href="registration.jsp">Not a member? Register a new one.</a>
+                    </p>
+               
                     <p class="mt-5 mb-3 text-muted">&copy; 2019</p>
                 </form>
             </div>
