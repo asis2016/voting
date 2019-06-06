@@ -22,6 +22,13 @@
     </head>
     <body>
         <div class="container">
+            <!--SOFTWARE REQUIREMENT!-->
+            <div class="alert alert-danger" role="alert">
+                <b>
+                  10. Submitting a vote
+                </b>
+            </div>
+             <!--Ends: SOFTWARE REQUIREMENT!-->
             <div class="row">
                 <div class="offset-lg-2 col-lg-8">
                     <h1>Vote Summer Semester 2019</h1>
