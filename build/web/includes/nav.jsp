@@ -25,7 +25,7 @@
                 <i class="fas fa-user-circle"></i>&nbsp;My Profile
             </a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="login.jsp">
+          <a class="dropdown-item" href="/voting/login.jsp">
               <i class="fas fa-sign-out-alt"></i>&nbsp;Logout
           </a>
         </div>

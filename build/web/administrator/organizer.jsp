@@ -1,11 +1,10 @@
 <!--Header-->
-<%@include file="includes/header.jsp" %>
+<%@include file="../includes/header.jsp" %>
 
 <!--Nav-->
-<%@include file="includes/nav.jsp" %>
+<%@include file="../includes/nav.jsp" %>
 
 <main id="organizer" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-
     <h3>Organizer List</h3>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -253,4 +252,5 @@
     </div>
 </main>
 
-<%@include file="includes/footer.jsp" %>
+<!--Footer-->
+<%@include file="../includes/footer.jsp" %>

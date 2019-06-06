@@ -8,66 +8,6 @@ and open the template in the editor.
     Author     : lion
 */
 
-/*Login Page*/
-        #loginpage {
-            height: 100%;
-        }
-
-         #loginpage {
-            display: -ms-flexbox;
-            display: -webkit-box;
-            display: flex;
-            -ms-flex-align: center;
-            -ms-flex-pack: center;
-            -webkit-box-align: center;
-            align-items: center;
-            -webkit-box-pack: center;
-            justify-content: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            background-color: #f5f5f5;
-        }
-
-         #loginpage .form-signin {
-            width: 100%;
-            max-width: 330px;
-            padding: 15px;
-            margin: 0 auto;
-        }
-
-         #loginpage .form-signin .checkbox {
-            font-weight: 400;
-        }
-
-         #loginpage .form-signin .form-control {
-            position: relative;
-            box-sizing: border-box;
-            height: auto;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-         #loginpage .form-signin .form-control:focus {
-            z-index: 2;
-        }
-
-         #loginpage .form-signin input[type="email"] {
-            margin-bottom: -1px;
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-        }
-
-         #loginpage .form-signin input[type="password"] {
-            margin-bottom: 10px;
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-        }
-
-         #loginpage .fas {
-            font-size: 6rem;
-        }
-/*Ends: Login Page*/
-
 /*Header section*/
 #navbartop .nav-item .fas{
     /*color: #fff;*/
@@ -82,59 +22,59 @@ and open the template in the editor.
 
 /*Dashboard page (index.jsp)*/
 .dashboard .info-box {
-            display: block;
-            min-height: 90px;
-            background: #fff;
-            width: 100%;
-            /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); */
-            border-radius: 2px;
-            margin-bottom: 15px;
-        }
+    display: block;
+    min-height: 90px;
+    background: #fff;
+    width: 100%;
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); */
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
 
-        .dashboard .fas {
-            color: #fff;
-        }
+.dashboard .fas {
+    color: #fff;
+}
 
-        .dashboard .info-box-content {
-            padding: 5px 10px;
-            margin-left: 90px;
-        }
+.dashboard .info-box-content {
+    padding: 5px 10px;
+    margin-left: 90px;
+}
 
-        .dashboard .progress-description,
-        .dashboard .info-box-text {
-            display: block;
-            font-size: 14px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+.dashboard .progress-description,
+.dashboard .info-box-text {
+    display: block;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-        .dashboard .info-box-number {
-            display: block;
-            font-weight: bold;
-            font-size: 18px;
-        }
+.dashboard .info-box-number {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-        .dashboard .info-box-icon {
-            border-top-left-radius: 2px;
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 2px;
-            display: block;
-            float: left;
-            height: 88px;
-            width: 90px;
-            text-align: center;
-            font-size: 45px;
-            line-height: 90px;
-            /* background: rgba(0, 0, 0, 0.2); */
-        }
-        
-        /*Ends: Dashboard page (index.jsp)*/
-        
-        
-        /*Notifications*/
-        ul.timeline {
+.dashboard .info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 88px;
+    width: 90px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+
+/*Ends: Dashboard page (index.jsp)*/
+
+
+/*Notifications*/
+ul.timeline {
     list-style-type: none;
     position: relative;
 }

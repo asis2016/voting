@@ -1,14 +1,16 @@
 
+
 <!doctype html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Voting System">
         <meta name="author" content="Ashish">
         <link rel="icon" href="images/vote.png">
-        <title>Voting System</title>
+        <title>
+            Reset password verification
+        </title>
         <!-- Bootstrap core CSS -->
         <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
         <!--Font Awesome-->
@@ -16,7 +18,11 @@
         <!--Custom Style-->
         <style>
             .container{
-                padding-top:100px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+            .far{
+                font-size: 5rem;
             }
         </style>
     </head>
@@ -24,18 +30,21 @@
         <div class="container">
             <div class="row">
                 <div class="offset-lg-2 col-lg-8">
-                    <h1>Vote Summer Semester 2019</h1>
-                    <div class="alert alert-primary" role="alert">
-                        Please insert your token number in order to start voting!
+                    <div class="text-center text-success ">
+                        <i class="far fa-thumbs-up pb-3"></i>
+                        <h1 class="text-success border-bottom pb-2">Success! Your password has been reset.</h1>
                     </div>
-                    <div class="input-group input-group-lg mb-3">
-                        <input type="text" class="form-control" placeholder="zwerj2012i093845jvckljgpoierq">
-                    </div>
-                    <div class="input-group input-group-lg mb-3">
-                    <a href="vote.jsp" class="btn btn-primary btn-block">Submit</a>
-                    </div>
+                    <p>
+                        Follow the instruction from the inbox of your email. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                    </p>
+                    <p>
+                        <a href="login.jsp">
+                            <i class="fas fa-undo"></i> Go back to Login.
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
     </body>
 </html>
+

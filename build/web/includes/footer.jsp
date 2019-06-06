@@ -5,22 +5,22 @@
 <!-- Bootstrap core JavaScript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="Assets/js/jquery-3.2.1.slim.min.js">
+<script src="/voting/Assets/js/jquery-3.2.1.slim.min.js">
 </script>
 <script>
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
 </script>
-<script src="Assets/js/popper.min.js"></script>
-<script src="Assets/js/bootstrap.min.js"></script>
+<script src="/voting/Assets/js/popper.min.js"></script>
+<script src="/voting/Assets/js/bootstrap.min.js"></script>
 
 <!-- Icons -->
-<script src="Assets/js/feather.min.js"></script>
+<script src="/voting/Assets/js/feather.min.js"></script>
 <script>
     feather.replace()
 </script>
 
 <!-- Graphs -->
-<script src="Assets/js/Chart.min.js"></script>
+<script src="/voting/Assets/js/Chart.min.js"></script>
 <script>
     var ctx = document.getElementById("myChart");
     var myChart = new Chart(ctx, {
